@@ -20,7 +20,7 @@ function playCraps(){
 
     //the logic for if we won, lost or tied
     if (sum == 7 || sum == 11){
-        outputRes("CrapsRes", "You lose!");
+        outputRes("crapsRes", "You lose!");
     }
     //if the dice equal each other, and they are even
     else if (die1 == die2 && die2 % 2 == 0){
