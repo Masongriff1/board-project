@@ -31,6 +31,6 @@ footer{
 }
 
 /*anything in between the header tags will be affected by this style*/
-<br>
-    <a href="./boards.html">boards</a>
-<br>
+header{
+    text-align: center;
+}
