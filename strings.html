@@ -5,8 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Strings Page</title>
+    <!--Add a link to CSS file-->
+    <link rel="stylesheet" href="main.css">
 </head>
-<body>
-
+<nav>
+    <a href="./index.html">Home</a>
+    <br>
+    <a href="./boards.html">boards</a>
+    <br>
+    <a href="./game.html">Game</a>
+    <br>
+    <a href="./strings.html">UserInput</a>
+</nav>
+<form>
+    <h1> Enter Your Name! </h1>
+    <form id="myForm">
+    <label for="fname">First Name:</label>
+    <input type="text" name="fname" id="fname"><br><br>
+    <label for="lname">Last Name:</label>
+    <input type="text" name="lname" id="lname"><br><br>
+    <label for="zip">Zip Code:</label>
+    <input type="text" name="zip" id="zip"><br><br>
+    <button onclick="validateInput()">Submit</button>
+</form>
 </body>
 </html>
