@@ -2,8 +2,8 @@
 setting the background-color property to the value of pinkish
 setting the text color (foreground) property to navy */
 body{
-    background-color: rgb(165, 135, 233);
-    color:navy;
+    background-color: blue;
+    color:yellow;
 }
 
 /*

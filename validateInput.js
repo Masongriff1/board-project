@@ -1,5 +1,5 @@
 function charAtDemo() {
-    var someText = "bangerang";
+    var someText = "firstName";
     var lastLetter = someText.charAt(someText.length - 1);
     console.log(lastLetter);
     //document.getElementById("charAt").innerHTML = sum;
@@ -22,7 +22,7 @@ function validateInput(){
         return false;
     }
     //check if zip has 5 characters and is a number.
-    if(zip.length != 5 || (!Number.isInteger(parseInt(zip)) && parseInt(zip) > 9999)) {
+    if(zip.length != 5 || !(Number.isInteger(parseInt(zip)) && parseInt(zip) > 9999)) {
         alert("Invalid zip code. Zip must be a number of 5 digits.");
         console.log(typeof zip)
         return false;

@@ -6,6 +6,7 @@ function addButton() {
     inputElementStart.setAttribute("value", "Start");
     inputElementStart.setAttribute("id", "startButton");
     inputElementStart.setAttribute("onclick", "startButton();");
+    inputElementStart.style.backgroundColor = "black"
 
     let inputElementStop = document.createElement("input");
     inputElementStop.setAttribute("type", "button");
@@ -13,6 +14,7 @@ function addButton() {
     inputElementStop.setAttribute("id", "stopButton");
     inputElementStop.setAttribute("onclick", "stopButton();");
     inputElementStop.setAttribute("disabled", "true");
+    inputElementStop.style.backgroundColor = "black"
 
     let parent = document.getElementById("memeParagraph")
     parent.appendChild(inputElementStart);
