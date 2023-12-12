@@ -1,5 +1,5 @@
 function charAtDemo() {
-    var someText = "firstName";
+    var someText = fname.value;
     var lastLetter = someText.charAt(someText.length - 1);
     console.log(lastLetter);
     //document.getElementById("charAt").innerHTML = sum;
